@@ -1,17 +1,30 @@
 loadCountries();
 
-function loadCountries (){
-   
+const listaPaises = []
 
-    let url = 'https://restcountries.com/v3.1/name/peru'
+let id = 21
+
+
+
+
+function loadCountries (){
+       
+
+
+
+    let url = 'https://restcountries.com/v2/all'
+
+
+
+
 
     fetch(url)
         .then((response) => {
             return response.json();
         })
         .then((pais) => {
-
-            console.log(pais[0].name.common) 
+            for(i = 0; i < id; i ++){
+            console.log(pais[i].demonym) }
         })
         .catch((erro) => {
             console.log("Erro: " + erro);

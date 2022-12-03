@@ -7,6 +7,7 @@
 > Planejamento de Projeto 
 
 -[X]Criar lógica para consumo da API
+-[X]Obter dados de todos os países
 -[ ]Estruturar Cabeçalho
 -[ ]Estilizar Cabeçalhos
 -[ ]Estruturar primeira section 
