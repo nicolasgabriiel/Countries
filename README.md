@@ -6,7 +6,7 @@
 
 > Planejamento de Projeto 
 
--[ ]Criar lógica para consumo da API
+-[X]Criar lógica para consumo da API
 -[ ]Estruturar Cabeçalho
 -[ ]Estilizar Cabeçalhos
 -[ ]Estruturar primeira section 
