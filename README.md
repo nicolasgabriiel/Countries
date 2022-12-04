@@ -9,7 +9,7 @@
 -[X]Criar lógica para consumo da API
 -[X]Obter dados de todos os países
 -[X]Estruturar Cabeçalho
--[ ]Inserir favicon
+-[X]Inserir favicon
 -[X]Estilizar Cabeçalhos
 -[ ]Importar Fonte
 -[ ]Criar lógica dar mode
