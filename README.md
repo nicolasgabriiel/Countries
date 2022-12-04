@@ -12,7 +12,7 @@
 -[X]Inserir favicon
 -[X]Estilizar Cabeçalhos
 -[X]Importar Fonte
--[ ]Criar lógica darK mode
+-[X]Criar lógica darK mode
 -[ ]Estruturar primeira section 
 -[ ]Estilizar primeira section 
 -[ ]Estruturar segunda section 

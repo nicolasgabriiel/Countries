@@ -1,0 +1,22 @@
+//Receber o elemento botão
+let buttonDarkMode = document.getElementById('button-dark-mode')
+
+//Receber o elemento do link do css
+const link = document.getElementById('dark-mode')
+
+//Variavel que define qual link jogar no css
+let themeWhite = true;
+
+//Função que muda o tema
+buttonDarkMode.onclick = function (){
+if(themeWhite == true){
+    themeWhite = false
+    link.href = "assets/css/themetwo.css"
+}
+else if(themeWhite == false ){
+    themeWhite = true
+    link.href = "assets/css/themeone.css"
+}
+}
+
+
