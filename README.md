@@ -15,7 +15,7 @@
 -[X]Criar lógica darK mode
 -[X]Estruturar primeira section 
 -[X]Estilizar primeira section 
--[ ]Estruturar segunda section 
+-[X]Estruturar segunda section 
 -[ ]Estilizar background segunda section 
 -[ ]Criar lógica para pegar os dados de todos os paises
 -[ ]Inserir dados da api na segunda section
