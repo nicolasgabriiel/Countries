@@ -14,7 +14,7 @@
 -[X]Importar Fonte
 -[X]Criar lógica darK mode
 -[X]Estruturar primeira section 
--[ ]Estilizar primeira section 
+-[X]Estilizar primeira section 
 -[ ]Estruturar segunda section 
 -[ ]Estilizar background segunda section 
 -[ ]Criar lógica para pegar os dados de todos os paises
@@ -22,7 +22,9 @@
 -[ ]Estilizar os dados da Api exibidos
 -[ ]Estilizar dark mode
 -[ ]Criar lógica de pesquisa
--[ ]Criar lógica de filtro
+-[ ]Criar lógica de filtro de abrir o filtro
+-[ ]Estruturar o filtro
+-[ ]Estilizar o filtro
 -[ ]Inserir meta tags
 -[ ]
 -[ ]

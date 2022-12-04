@@ -2,6 +2,7 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
+/*      Header       */
 .container-header{
     width: 90%;
     margin: 0 auto;
@@ -31,3 +32,48 @@ body{
 .dark-mode span{
     font-size: 18px;
 }
+/*      Seção um       */
+
+/* Pesquisa */
+.section-one{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pesquisar .lupa{
+    position: relative;
+    width: 24px;
+    top: 17px;
+    left:47px;
+}
+.pesquisar .lupa:hover{
+    cursor: pointer;
+}
+.pesquisar input{
+    position: relative;
+    padding: 20px 200px 20px 60px;
+    border: none ;
+    border-radius: 5px;
+    font-size: 16px;
+    vertical-align: top;
+}
+/* Filtro */
+.filtrar button{
+    padding: 20px 80px 20px 30px;
+    border: none ;
+    border-radius: 5px;
+    font-size: 16px;
+    vertical-align: top;
+}
+.filtrar button:hover{
+    cursor: pointer;
+}
+.filtrar img{
+    position: relative;
+    width: 15px;
+    top: 22px;
+    right: 40px;
+}
+
+/*      Seção dois       */

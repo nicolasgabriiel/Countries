@@ -7,3 +7,23 @@ header{
 .dark-mode:hover{
     background-color: #EFEFEF;
 }
+header{
+    background-color: white;
+}
+body{
+    background-color: #FAFAFA;
+}
+.pesquisar input{
+    background-color: white;
+    box-shadow: 3px 3px 5px 5px #efefef;
+    color: #878787;
+}
+.pesquisar input:focus{
+    border-color: #cccccc;
+    color:black;
+}
+.filtrar button{
+    background-color: white;
+    box-shadow: 3px 3px 5px 5px #efefef;
+    color: #878787;
+}
