@@ -21,9 +21,10 @@ body{
 .pesquisar input:focus{
     border-color: #cccccc;
     color:black;
+    outline: 1px solid #C8C8C8;
 }
 .filtrar button{
     background-color: white;
     box-shadow: 3px 3px 5px 5px #efefef;
-    color: #878787;
+    color: black;
 }

@@ -43,23 +43,28 @@ body{
 }
 .pesquisar .lupa{
     position: relative;
-    width: 24px;
+    width: 22px;
     top: 17px;
-    left:47px;
+    left:22px;
+    z-index: 1;
 }
 .pesquisar .lupa:hover{
     cursor: pointer;
 }
 .pesquisar input{
     position: relative;
+    left: -25px;
     padding: 20px 200px 20px 60px;
     border: none ;
     border-radius: 5px;
     font-size: 16px;
     vertical-align: top;
+    outline: 0;
 }
 /* Filtro */
 .filtrar button{
+    position: relative;
+    right: -20px;
     padding: 20px 80px 20px 30px;
     border: none ;
     border-radius: 5px;
@@ -73,7 +78,15 @@ body{
     position: relative;
     width: 15px;
     top: 22px;
-    right: 40px;
+    right: 25px;
 }
 
 /*      Seção dois       */
+
+.section-two{
+    margin: 0 auto;
+    width: 90%;
+    background-color: red;
+    height: 100vh;
+}
+    

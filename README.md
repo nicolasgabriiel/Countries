@@ -16,7 +16,7 @@
 -[X]Estruturar primeira section 
 -[X]Estilizar primeira section 
 -[X]Estruturar segunda section 
--[ ]Estilizar background segunda section 
+-[X]Estilizar background segunda section 
 -[ ]Criar lógica para pegar os dados de todos os paises
 -[ ]Inserir dados da api na segunda section
 -[ ]Estilizar os dados da Api exibidos
