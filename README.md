@@ -13,7 +13,7 @@
 -[X]Estilizar Cabeçalhos
 -[X]Importar Fonte
 -[X]Criar lógica darK mode
--[ ]Estruturar primeira section 
+-[X]Estruturar primeira section 
 -[ ]Estilizar primeira section 
 -[ ]Estruturar segunda section 
 -[ ]Estilizar background segunda section 
