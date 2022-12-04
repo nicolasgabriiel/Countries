@@ -11,8 +11,8 @@
 -[X]Estruturar Cabeçalho
 -[X]Inserir favicon
 -[X]Estilizar Cabeçalhos
--[ ]Importar Fonte
--[ ]Criar lógica dar mode
+-[X]Importar Fonte
+-[ ]Criar lógica darK mode
 -[ ]Estruturar primeira section 
 -[ ]Estilizar primeira section 
 -[ ]Estruturar segunda section 
