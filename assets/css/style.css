@@ -1,0 +1,30 @@
+
+.container-header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.container-header h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.dark-mode{
+    box-shadow: none;
+    border: none;
+    transition: 0.2s;
+}
+.dark-mode:hover{
+    cursor:pointer;
+    scale: 1.03;
+    border-radius: 7px;
+}
+.dark-mode img{
+    width: 18px;
+    position: relative;
+    top: 2px;
+}
+.dark-mode span{
+    font-size: 18px;
+}

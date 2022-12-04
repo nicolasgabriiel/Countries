@@ -10,7 +10,8 @@
 -[X]Obter dados de todos os países
 -[X]Estruturar Cabeçalho
 -[ ]Inserir favicon
--[ ]Estilizar Cabeçalhos
+-[X]Estilizar Cabeçalhos
+-[ ]Importar Fonte
 -[ ]Criar lógica dar mode
 -[ ]Estruturar primeira section 
 -[ ]Estilizar primeira section 
