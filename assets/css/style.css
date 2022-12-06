@@ -86,24 +86,48 @@ body{
 .section-two{
     margin: 0 auto;
     width: 90%;
-    background-color: red;
 }
 .lista-paises{
   display:flex;
   flex-flow: column wrap;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 .container-pais {
 display: inline-block;
+min-width: 290px;
 width: 20.1%;
 margin-bottom: 50px;
+border-radius: 8px;
+transition: 0.2s;
+}
+.container-pais:hover{
+    cursor: pointer;
+    scale: 1.015;
 }
 .container-pais .img{
     width: 100%;
     height: 210px;
     background-position: center;
     background-size: cover;
-   
+    border-top-left-radius:8px ;
+    border-top-right-radius:8px ;
+}
+strong{
+    font-weight: bold;
+}
+.container-pais h2 {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5%;
+
+}
+.container-pais p {
+    padding: 3%;
+    font-size: 15px;
+}
+.container-pais p:last-child{
+    padding-bottom: 50px;
 }
 

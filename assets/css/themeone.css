@@ -29,5 +29,6 @@ body{
     color: black;
 }
 .container-pais{
-    background-color: white;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px 5px #efefef;
 }
