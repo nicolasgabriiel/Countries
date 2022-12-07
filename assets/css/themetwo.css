@@ -1,9 +1,47 @@
 header{
-    box-shadow: 3px 3px 5px #EFEFEF;
+    box-shadow: 3px 3px 5px #1D2935;
+    background-color: #2B3743;
+}
+.container-header{
+    background-color: #2B3743;
+}
+.container-header h1{
+    color: white;
 }
 .dark-mode{
-    background-color: red;
+    color: white;
+    background-color: #2B3743;
 }
 .dark-mode:hover{
-    background-color: red;
+    background-color: #42586e;
+}
+body{
+    background-color: #202D36;;
+}
+.pesquisar input{
+    background-color: #2B3743;
+    box-shadow: 3px 3px 5px 5px #1D2935;
+    color: white;
+}
+.pesquisar input:focus{
+    border-color: #1D2935;
+    color:black;
+    outline: 5px solid #1D2935;
+    color: white;
+}
+.filtrar button{
+    background-color: #2B3743;
+    box-shadow: 3px 3px 5px 5px #1D2935;
+    color: white;
+}
+.filtrar button img{
+    color: white;
+    background-color: #2B3743;
+}
+.container-pais{
+    background-color: #2B3743;
+    box-shadow: 3px 3px 5px 5px #1D2935;
+}
+.container-pais{
+    color: white;
 }
