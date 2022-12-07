@@ -29,7 +29,7 @@ body{
     outline: 5px solid #1D2935;
     color: white;
 }
-.filtrar button{
+.filtrar button, .filtros-ocultos{
     background-color: #2B3743;
     box-shadow: 3px 3px 5px 5px #1D2935;
     color: white;
@@ -44,4 +44,17 @@ body{
 }
 .container-pais{
     color: white;
+}
+.filtros-ocultos{
+    box-shadow: 1px 1px 2px 2px #efefef;
+}
+.filtros-ocultos > button{
+    background-color: white;
+}
+.filtros-ocultos > button{
+    background-color: white;
+}
+.filtros-ocultos > button:hover{
+    font-weight: bold;
+    scale: 1.005;
 }

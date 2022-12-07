@@ -22,23 +22,11 @@
 -[X]Estilizar os dados da Api exibidos;
 -[X]Estilizar dark mode;
 -[ ]Criar lógica de filtro de abrir o filtro;
+-[ ]Criar lógica de filtrar 
 -[X]Estruturar o filtro;
--[ ]Estilizar o filtro;
+-[X]Estilizar o filtro;
+-[ ]Estilizar dark mode do filtro
 -[ ]Criar lógica de pesquisa;
 -[ ]Inserir meta tags;
 -[ ]Modificar número da população
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
--[ ]
+

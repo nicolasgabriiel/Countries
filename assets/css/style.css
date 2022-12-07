@@ -62,7 +62,7 @@ body{
     outline: 0;
 }
 /* Filtro */
-.filtrar button{
+.filtrar > button{
     position: relative;
     right: -20px;
     padding: 20px 80px 20px 30px;
@@ -79,6 +79,34 @@ body{
     width: 15px;
     top: 22px;
     right: 25px;
+}
+.filtros-ocultos{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    padding: 10px 0;
+    width: 30%;
+    max-width: 220px;
+    position: absolute;
+    right: 5%;
+    top: 198px;
+    border-radius: 5px;
+}
+.filtros-ocultos > button{
+    left: 20px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    width: 92%;
+    text-align: left;
+    padding: 7px 15px;
+    border: none;
+    box-shadow: none;
+    transition: .1s;
+} 
+.filtros-ocultos{
+    display: none;
 }
 
 /*      Seção dois       */
