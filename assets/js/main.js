@@ -28,7 +28,7 @@ function loadCountries (){
                         <p><strong>Capital:</strong> ${paises.capital}</p>
                     </li>
                     `
-                    console.log(paises.region)
+                    console.log()
                     return accumulator
              }, '')             
          

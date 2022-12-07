@@ -21,8 +21,10 @@
 -[X]Inserir dados da api na segunda section;
 -[X]Estilizar os dados da Api exibidos;
 -[X]Estilizar dark mode;
--[ ]Criar lógica de filtro de abrir o filtro;
--[ ]Criar lógica de filtrar 
+-[X]Criar lógica de filtro de abrir o filtro;
+-[X]Criar lógica de filtrar 
+-[ ]Criar lógica pra sair do filtro
+-[ ]Replciar lógica de filtro 
 -[X]Estruturar o filtro;
 -[X]Estilizar o filtro;
 -[ ]Estilizar dark mode do filtro

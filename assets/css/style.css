@@ -80,6 +80,9 @@ body{
     top: 22px;
     right: 25px;
 }
+.filtrar img:hover{
+    cursor: pointer;
+}
 .filtros-ocultos{
     margin-top: 5px;
     display: flex;
