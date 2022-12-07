@@ -20,9 +20,9 @@
 -[X]Criar lógica para pegar os dados de todos os paises;
 -[X]Inserir dados da api na segunda section;
 -[X]Estilizar os dados da Api exibidos;
--[ ]Estilizar dark mode;
+-[X]Estilizar dark mode;
 -[ ]Criar lógica de filtro de abrir o filtro;
--[ ]Estruturar o filtro;
+-[X]Estruturar o filtro;
 -[ ]Estilizar o filtro;
 -[ ]Criar lógica de pesquisa;
 -[ ]Inserir meta tags;
