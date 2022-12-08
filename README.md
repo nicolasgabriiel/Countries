@@ -23,7 +23,7 @@
 -[X]Estilizar dark mode;
 -[X]Criar lógica de filtro de abrir o filtro;
 -[X]Criar lógica de filtrar 
--[ ]Criar lógica pra sair do filtro
+-[X]Criar lógica pra sair do filtro
 -[ ]Replciar lógica de filtro 
 -[X]Estruturar o filtro;
 -[X]Estilizar o filtro;

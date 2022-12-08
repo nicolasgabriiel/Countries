@@ -115,21 +115,23 @@ body{
 /*      Seção dois       */
 
 .section-two{
-    margin: 0 auto;
-    width: 90%;
+width: 90%;
+margin: 0 auto;
 }
 .lista-paises{
-  display:flex;
-  flex-flow: column wrap;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  grid-column-gap: 6%;
+  grid-row-gap: 10vh;
 
-  justify-content: space-between;
+
 }
 .container-pais {
 display: inline-block;
 min-width: 290px;
-width: 20.1%;
-margin-bottom: 50px;
+width: 100%;
+
 border-radius: 8px;
 transition: 0.2s;
 }
@@ -141,7 +143,8 @@ transition: 0.2s;
     width: 100%;
     height: 210px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     border-top-left-radius:8px ;
     border-top-right-radius:8px ;
 }
@@ -162,3 +165,20 @@ strong{
     padding-bottom: 50px;
 }
 
+@media screen and (max-width: 1585px) {
+    .lista-paises{
+        grid-column-gap: 2%;
+    }
+}
+@media screen and (max-width: 1365px) {
+    .lista-paises{
+        grid-column-gap: 3%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .lista-paises{
+        grid-column-gap: 5%;
+        grid-template-columns: 1fr 1fr;
+    }
+}

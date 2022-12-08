@@ -9,9 +9,15 @@ const asia = document.getElementById('Asia')
 const europe = document.getElementById('Europe')
 const oceania = document.getElementById('Oceania')
 
+let aberto = false;
 //Lista de Filtrados
 const listaGeral = document.getElementsByClassName('container-pais')
 const paisesAfricanos = document.getElementsByClassName('Africa')
+
+
+function abrirFiltros(){
+    filtrosOcultos.style.display = "flex"
+}
 
 function fecharFiltros(){
     filtrosOcultos.style.display = "none"
@@ -19,11 +25,31 @@ function fecharFiltros(){
 
 
 filtros.onclick = function AbrirFiltros () {
-    filtrosOcultos.style.display = "flex"
+    if(aberto == false){
+        abrirFiltros()
+        aberto = true
+        arrow.src = "../images/arrow_"
+    }
+    else if(aberto == true){
+        fecharFiltros()
+        aberto = false 
+    } 
 }
+
+
+
 arrow.onclick = function AbrirFiltros () {
-    filtrosOcultos.style.display = "flex"
+    if(aberto == false){
+        abrirFiltros()
+        aberto = true
+    }
+    else if(aberto == true){
+        fecharFiltros()
+        aberto = false 
+    } 
 }
+
+
 
 africa.onclick = function filtroAfrica (){
  for (let i = 0; i < listaGeral.length; i++) {
@@ -36,4 +62,5 @@ for (let i = 0; i < paisesAfricanos.length; i++) {
   paisesAfricanos[i].style.display = "inline-block";
 }
 fecharFiltros();
-}
+} 
+console.log(filtros)
