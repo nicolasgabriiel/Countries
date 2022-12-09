@@ -6,7 +6,7 @@ const filtrosOcultos = document.getElementById('filtros-ocultos')
 
 let aberto = false;
 
-let filtroAfrica = false;
+let filtroGeral = false;
 //Lista de Filtrados
 const listaGeral = document.getElementsByClassName('container-pais')
 
@@ -85,32 +85,37 @@ for(let i = 0; i < regioes.length; i++){
 
     classes[i] = document.getElementsByClassName(regioes[i])
 
+console.log(botoes[i])
 
-
-botoes[0].onclick = function filtrandoPorRegiao (){
+botoes[i].onclick = function filtrandoPorRegiao (){
 
   
-    if(filtroAfrica == false){
+    if(filtroGeral == false){
 
         mostrarNada()
-        mostrarPaises()
-        africa.style.fontWeight = "bold"
-        filtroAfrica = true;
+        removerFonte()
+        botoes[i].style.fontWeight = "bold"
+        filtroGeral = true;
        
         region = classes[i]
-    }else if(filtroAfrica == true){
+        mostrarPaises()
+    }else if(filtroGeral == true){
 
-        africa.style.fontWeight = "200"
+        removerFonte()
         mostrarTudo()
-        filtroAfrica = false;
+        filtroGeral = false;
     }
 } 
-
+}
 
 function mostrarPaises(){
     
-    for (let t = 0; i < region.length; t++) {
+    for (let t = 0; t < region.length; t++) {
         
       region[t].style.display = "inline-block";
     }
-}}
+}
+function removerFonte (){
+    for(let i = 0 ; i < botoes.length ; i++)
+    botoes[i].style.fontWeight = "200"
+}
