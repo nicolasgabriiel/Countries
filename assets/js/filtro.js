@@ -2,21 +2,21 @@
 const filtros = document.getElementById('filtro')
 
 const filtrosOcultos = document.getElementById('filtros-ocultos')
-//botões de filtros exclusivos
-const all = document.getElementById('All')
-const africa = document.getElementById('Africa')
-const america = document.getElementById('America')
-const asia = document.getElementById('Asia')
-const europe = document.getElementById('Europe')
-const oceania = document.getElementById('Oceania')
+
 
 let aberto = false;
 
 let filtroAfrica = false;
 //Lista de Filtrados
 const listaGeral = document.getElementsByClassName('container-pais')
-const paisesAfricanos = document.getElementsByClassName('Africa')
-const paisesAmericanos = document.getElementsByClassName('Americas')
+
+
+
+
+
+
+
+
 
 
 
@@ -69,28 +69,48 @@ function mostrarTudo(){
         listaGeral[i].style.display = "inline-block";
         }
 }
-function mostrarPaisesAfricanos(){
-    for (let i = 0; i < paisesAfricanos.length; i++) {
-        console.log(paisesAfricanos)
-      paisesAfricanos[i].style.display = "inline-block";
-    }
-}
+
+///////// mostrar paises filtrados 
+//botões de filtros exclusivos
+let region;
+
+let botoes = []
+
+let classes = []
+
+regioes = ["Africa", "Americas","Europe", "Asia", "Oceania"]
+
+for(let i = 0; i < regioes.length; i++){
+    botoes[i] = document.getElementById(regioes[i])
+
+    classes[i] = document.getElementsByClassName(regioes[i])
 
 
-africa.onclick = function filtrandoAfrica (){
-    console.log('etapa1')
+
+botoes[0].onclick = function filtrandoPorRegiao (){
+
+  
     if(filtroAfrica == false){
-        console.log('etapa2')
+
         mostrarNada()
-        mostrarPaisesAfricanos()
+        mostrarPaises()
         africa.style.fontWeight = "bold"
         filtroAfrica = true;
        
-
+        region = classes[i]
     }else if(filtroAfrica == true){
-        console.log('etapa3')
+
         africa.style.fontWeight = "200"
         mostrarTudo()
         filtroAfrica = false;
     }
 } 
+
+
+function mostrarPaises(){
+    
+    for (let t = 0; i < region.length; t++) {
+        
+      region[t].style.display = "inline-block";
+    }
+}}
