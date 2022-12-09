@@ -24,7 +24,7 @@
 -[X]Criar lógica de filtro de abrir o filtro;
 -[X]Criar lógica de filtrar 
 -[X]Criar lógica pra sair do filtro
--[ ]Replciar lógica de filtro 
+-[X]Replciar lógica de filtro 
 -[X]Estruturar o filtro;
 -[X]Estilizar o filtro;
 -[ ]Estilizar dark mode do filtro

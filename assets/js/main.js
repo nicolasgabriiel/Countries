@@ -20,15 +20,17 @@ function loadCountries (){
                 const lisPaises = pais.reduce((accumulator, paises) => {
                     
                     accumulator+= `
-                    <li class="container-pais ${paises.region}">
+                    <div class="abrir"> 
+                    <li class="container-pais ${paises.region} ${paises.alpha3Code} ">
                         <div class="img" style="background-image: url(${paises.flag}) ;"></div>
                         <h2>${paises.name}</h2>
                         <p><strong>Population:</strong> ${paises.population}</p>
                         <p><strong>Region:</strong> ${paises.region}</p>
                         <p><strong>Capital:</strong> ${paises.capital}</p>
                     </li>
+                    <div>
                     `
-                    
+                   
                     return accumulator
              }, '')             
          
