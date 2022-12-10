@@ -15,10 +15,14 @@ function loadCountries (){
             return response.json();
         })
         .then((pais) => {
-           
+           for(let i = 0; i < 250 ; i ++){
+            listaCode[i] = pais[i].alpha3Code
+        }
+
 
                 const lisPaises = pais.reduce((accumulator, paises) => {
                     
+
                     accumulator+= `
                     
                     <li class="container-pais ${paises.region}  " onclick="insert(${paises.alpha3Code})">
@@ -29,19 +33,23 @@ function loadCountries (){
                         <p><strong>Capital:</strong> ${paises.capital}</p>
                     </li>
                     
+                    
                     `
-                   listaCode = paises.alpha3Code
+                    
                    
                     return accumulator
+
+                    
              }, '')             
          
 
-
+        console.log(listaCode)
             
         listaPaises.innerHTML = lisPaises
 
         }
+        
         )}
     
         
-    
+        

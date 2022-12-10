@@ -1,2 +1,2 @@
 
-    console.log(listaCode)
+console.log(listaCode)
