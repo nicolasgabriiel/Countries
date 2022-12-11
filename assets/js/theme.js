@@ -30,5 +30,3 @@ else if(themeWhite == false ){
     moon.src = "assets/images/moon.svg"
 }
 }
-
-

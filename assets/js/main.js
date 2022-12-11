@@ -1,6 +1,9 @@
 loadCountries();
 
-let listaCode = []
+let listaCode = {}
+
+ 
+let countrie = {}
 
 const listaPaises = document.getElementById('lista-paises')
 
@@ -15,18 +18,15 @@ function loadCountries (){
             return response.json();
         })
         .then((pais) => {
-           for(let i = 0; i < 250 ; i ++){
-            listaCode[i] = pais[i].alpha3Code
-        }
-
-
+         
+                
                 const lisPaises = pais.reduce((accumulator, paises) => {
                     
 
                     accumulator+= `
                     
-                    <li class="container-pais ${paises.region}  " onclick="insert(${paises.alpha3Code})">
-                        <div class="img" style="background-image: url(${paises.flag}) ;"></div>
+                    <li class="container-pais ${paises.region}" onclick="mostrarDados('${paises.alpha3Code}')" >
+                        <div class="img" style="background-image: url(${paises.flag}) ;" id="${paises.alpha3Code}"></div>
                         <h2>${paises.name}</h2>
                         <p><strong>Population:</strong> ${paises.population}</p>
                         <p><strong>Region:</strong> ${paises.region}</p>
@@ -35,21 +35,29 @@ function loadCountries (){
                     
                     
                     `
-                    
                    
                     return accumulator
-
+                    
                     
              }, '')             
-         
+        
+       
+             listaPaises.innerHTML = lisPaises
 
-        console.log(listaCode)
+        
+        
             
-        listaPaises.innerHTML = lisPaises
+        
+
+
+
+        
 
         }
         
         )}
     
-        
-        
+
+
+
+
