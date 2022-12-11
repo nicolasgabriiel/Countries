@@ -1,12 +1,26 @@
-let sectionOne = document.getElementById("sectionOne")
+const sectionOne = document.getElementById("sectionOne")
 
 function fecharSectionOne(){
     sectionOne.style.display = "none"
 }
 
+const back = document.getElementById('back')
+
+console.log(back)
+back.onclick = function reload (){
+    
+    document.location.reload(true);
+}
+
 const informacoesIndividuais = document.getElementById('informacoesIndividuais')
 
-console.log(informacoesIndividuais)
+
+back.style.display = "none"
+
+
+function mostrarBotao (){
+    back.style.display = "block"
+}
 
 
 
@@ -16,6 +30,7 @@ let urlData;
 function mostrarDados(dado){
     fecharSectionOne()
     mostrarNada()
+    mostrarBotao()
     
     dado = dado.toLowerCase()
     urlData = "https://restcountries.com/v3.1/alpha?codes=" +dado
@@ -48,10 +63,10 @@ function puxarApi(){
         }
         console.log(moeda);
        let dadosDaApi  = `
-       <div class:"button-back" id="back"><button>Back</button></div>
+       
        <div class="imagem-individual" style="background-image: url(${dados[0].flags.png});"></div>
        <div class="informacoes">
-       <h2>${dados[0].name}</h2>
+       <h2>${dados[0].name.official}</h2>
        <p><strong>Native Name: </strong>${nomeNativo}</p>
        <p><strong>Top Level Domain: </strong>${dados[0].tld[0]}</p>
        <p><strong>Population: </strong>${dados[0].population}</p>
@@ -79,4 +94,7 @@ function puxarApi(){
     })
 
     
+
+   
 }
+

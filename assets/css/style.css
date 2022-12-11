@@ -172,7 +172,9 @@ strong{
     background-position: center;
     background-size: contain;
 }
-
+.desativado{
+    display: none;
+}
 
 
 

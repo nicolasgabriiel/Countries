@@ -1,14 +1,25 @@
-const input = document.querySelector('#search')
-input.addEventListener('input', event => {
-    const inputValue = event.target.value.trim()
+const inputSearch = document.getElementById('search')
 
-    const divBtn = document.querySelectorAll('.informations');
+let inputValido ;
 
-    divBtn.forEach( element => { 
-        if (!element.childNodes[0].textContent.includes(inputValue)) {
-            element.parentNode.classList.add('desactive')
+inputSearch.addEventListener('input', event => {
+    let inputValue = event.target.value.trim()
+
+    const filtroName = document.querySelectorAll('.name-filter');
+
+    if(inputValue.length == 0 ){
+        inputValido = ""
+    }
+    if(inputValue.length > 0){
+     inputValido = inputValue[0].toUpperCase() + inputValue.substring(1)
+    }
+    
+
+    filtroName.forEach( elemento => { 
+        if (!elemento.textContent.includes(inputValido)) {
+            elemento.parentNode.classList.add('desativado')
         } else {
-            element.parentNode.classList.remove('desactive')
+            elemento.parentNode.classList.remove('desativado')
         }
     })
 })

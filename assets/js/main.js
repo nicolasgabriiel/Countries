@@ -25,9 +25,9 @@ function loadCountries (){
 
                     accumulator+= `
                     
-                    <li class="container-pais ${paises.region}" onclick="mostrarDados('${paises.alpha3Code}')" >
+                    <li class="container-pais ${paises.region} ${paises.name}" onclick="mostrarDados('${paises.alpha3Code}')" >
                         <div class="img" style="background-image: url(${paises.flag}) ;" id="${paises.alpha3Code}"></div>
-                        <h2>${paises.name}</h2>
+                        <h2 class="name-filter ${paises.name}">${paises.name}</h2>
                         <p><strong>Population:</strong> ${paises.population}</p>
                         <p><strong>Region:</strong> ${paises.region}</p>
                         <p><strong>Capital:</strong> ${paises.capital}</p>
