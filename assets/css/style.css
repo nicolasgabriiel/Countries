@@ -119,22 +119,23 @@ width: 90%;
 margin: 0 auto;
 }
 .lista-paises{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  grid-column-gap: 6%;
-  grid-row-gap: 10vh;
-
-
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+    
 }
 .container-pais {
+margin-bottom: 50px;
 display: inline-block;
 min-width: 290px;
-width: 100%;
-
+width: 20.1%;
 border-radius: 8px;
 transition: 0.2s;
 }
+
 .container-pais:hover{
     cursor: pointer;
     scale: 1.015;
@@ -143,8 +144,7 @@ transition: 0.2s;
     width: 100%;
     height: 210px;
     background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     border-top-left-radius:8px ;
     border-top-right-radius:8px ;
 }
@@ -155,8 +155,6 @@ strong{
     font-weight: bold;
     font-size: 22px;
     padding: 5%;
-    
-
 }
 .container-pais p {
     padding: 3%;
@@ -176,21 +174,6 @@ strong{
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1585px) {
     .lista-paises{
         grid-column-gap: 2%;
@@ -208,11 +191,3 @@ strong{
         grid-template-columns: 1fr 1fr;
     }
 }
-/* iDEIA SEARCH
-.container-pais{ 
-    display: none;
-}
-.BRA{
-    display: inline-block;
-}
-/*

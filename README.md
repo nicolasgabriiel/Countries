@@ -28,7 +28,7 @@
 -[X]Estruturar o filtro;
 -[X]Estilizar o filtro;
 -[ ]Estilizar dark mode do filtro
--[ ]Criar lógica de pesquisa;
+-[X]Criar lógica de pesquisa;
 -[ ]Inserir meta tags;
 -[ ]Modificar número da população
 

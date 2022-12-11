@@ -46,16 +46,15 @@ body{
     color: white;
 }
 .filtros-ocultos{
-    box-shadow: 1px 1px 2px 2px #efefef;
+    box-shadow: 1px 1px 2px 2px #1D2935;
 }
 .filtros-ocultos > button{
-    background-color: white;
-}
-.filtros-ocultos > button{
-    background-color: white;
-}
+    background-color: #2B3743;
+    color: white;
+    box-shadow: none;
+}  
+
 .filtros-ocultos > button:hover{
     font-weight: bold;
     scale: 1.005;
-    
 }
