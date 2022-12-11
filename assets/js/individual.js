@@ -31,21 +31,35 @@ function puxarApi(){
         return response.json();
     })
     .then((dados) => {
-        console.log(dados[0].name.nativeName);
+  
 
+        let moeda ;
+        let nomeNativo;
+        let linguagem;
+
+        for (const currency in dados[0].currencies) {
+            moeda = dados[0].currencies[currency].name
+        }
+        for (const language in dados[0].languages) {
+            linguagem = dados[0].languages[language]
+        }
+        for (const name in dados[0].name.nativeName) {
+            nomeNativo = dados[0].name.nativeName[name].official
+        }
+        console.log(moeda);
        let dadosDaApi  = `
        <div class:"button-back" id="back"><button>Back</button></div>
        <div class="imagem-individual" style="background-image: url(${dados[0].flags.png});"></div>
        <div class="informacoes">
        <h2>${dados[0].name}</h2>
-       <p><strong>Native Name:</strong>${dados[0].name.nativeName}</p>
-       <p><strong>Top Level Domain:</strong>${dados[0].tld[0]}</p>
-       <p><strong>Population:</strong>${dados[0].population}</p>
-       <p><strong>Currencies:</strong>${dados[0].currencies.name}</p>
+       <p><strong>Native Name: </strong>${nomeNativo}</p>
+       <p><strong>Top Level Domain: </strong>${dados[0].tld[0]}</p>
+       <p><strong>Population: </strong>${dados[0].population}</p>
+       <p><strong>Currencies: </strong>${moeda}</p>
        <p><strong>Region:</strong>${dados[0].region}</p>
-       <p><strong>Languages:</strong>${dados[0].languages}</p>
-       <p><strong>Sub Region:</strong>${dados[0].subregion}</p>
-       <p><strong>Capital:</strong>${dados[0].capital}</p>
+       <p><strong>Languages: </strong>${linguagem}</p>
+       <p><strong>Sub Region: </strong>${dados[0].subregion}</p>
+       <p><strong>Capital: </strong>${dados[0].capital}</p>
        </div>
        <div class="border-countries">
        <h3>Border Countries</h3>
