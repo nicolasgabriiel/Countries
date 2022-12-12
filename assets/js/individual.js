@@ -6,10 +6,14 @@ function fecharSectionOne(){
 
 const back = document.getElementById('back')
 
+
 console.log(back)
 back.onclick = function reload (){
+    sectionOne.style.display = "flex"
+    mostrarTudo()
+    back.style.display = "none"
+    informacoesIndividuais.style.display = "none"
     
-    document.location.reload(true);
 }
 
 const informacoesIndividuais = document.getElementById('informacoesIndividuais')
@@ -31,6 +35,8 @@ function mostrarDados(dado){
     fecharSectionOne()
     mostrarNada()
     mostrarBotao()
+
+    
     
     dado = dado.toLowerCase()
     urlData = "https://restcountries.com/v3.1/alpha?codes=" +dado
@@ -81,8 +87,9 @@ function puxarApi(){
        </div>
        </div>
         `
-
+        
         informacoesIndividuais.innerHTML = dadosDaApi
+        informacoesIndividuais.style.display = "flex"
     })
     .catch((erro) => {
         console.log("Erro: " + erro);

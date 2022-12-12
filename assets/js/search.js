@@ -14,7 +14,6 @@ inputSearch.addEventListener('input', event => {
         inputValue = inputValue.toLowerCase()
      inputValido = inputValue[0].toUpperCase() + inputValue.substring(1)
     }
-    
 
     filtroName.forEach( elemento => { 
         if (!elemento.textContent.includes(inputValido)) {

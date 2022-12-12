@@ -58,3 +58,12 @@ body{
     font-weight: bold;
     scale: 1.005;
 }
+.button-back > button{
+    background-color: #2B3743;
+    box-shadow: 3px 3px 5px 5px #1D2935;
+    border: none;
+    color: white;
+}
+.informacoes{
+    color: white;
+}
