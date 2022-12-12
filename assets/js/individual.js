@@ -1,48 +1,36 @@
 const sectionOne = document.getElementById("sectionOne")
-
+//Fecha a parte da seção um 
 function fecharSectionOne(){
     sectionOne.classList.add('desativado')
 }
-
 const back = document.getElementById('back')
-
-
+back.style.display = "none"
+// O botão de voltar recarrega a página 
 console.log(back)
 back.onclick = function reload (){
     location.reload();
-    
 }
-
+//elemento que vai receber os dados
 const informacoesIndividuais = document.getElementById('informacoesIndividuais')
-
-
-back.style.display = "none"
-
-
+// mostra o botão de voltar
 function mostrarBotao (){
     back.style.display = "block"
 }
-
-
-
-
+//url nova de requisição
 let urlData;
 
+//função que pega os dados do container que for clicado e gera uma nova url
 function mostrarDados(dado){
     fecharSectionOne()
     mostrarNada()
     mostrarBotao()
-
-    
     
     dado = dado.toLowerCase()
     urlData = "https://restcountries.com/v3.1/alpha?codes=" +dado
 
     console.log(urlData)
     puxarApi()
-
 }
-
 function puxarApi(){
     fetch(urlData)
     .then((response) => {
@@ -50,7 +38,6 @@ function puxarApi(){
     })
     .then((dados) => {
   
-
         let moeda ;
         let nomeNativo;
         let linguagem;
@@ -64,7 +51,7 @@ function puxarApi(){
         for (const name in dados[0].name.nativeName) {
             nomeNativo = dados[0].name.nativeName[name].official
         }
-        console.log(dados[0]);
+        //Elementos que apereceram na tela
        let dadosDaApi  = `
        
        <div class="imagem-individual" style="background-image: url(${dados[0].flags.png});"></div>
@@ -91,9 +78,6 @@ function puxarApi(){
     .catch((erro) => {
         console.log("Erro: " + erro);
     })
-
-    
-
    
 }
 

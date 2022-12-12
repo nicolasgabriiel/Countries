@@ -125,7 +125,6 @@ margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     align-items: stretch;
-    
 }
 .container-pais {
 margin-bottom: 50px;
@@ -135,7 +134,6 @@ width: 20.1%;
 border-radius: 8px;
 transition: 0.2s;
 }
-
 .container-pais:hover{
     cursor: pointer;
     scale: 1.015;
@@ -163,7 +161,6 @@ strong{
 .container-pais p:last-child{
     padding-bottom: 50px;
 }
-
 .desativado{
     display: none;
 }
