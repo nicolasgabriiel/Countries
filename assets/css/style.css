@@ -168,20 +168,3 @@ strong{
     display: none;
 }
 
-@media screen and (max-width: 1585px) {
-    .lista-paises{
-        grid-column-gap: 2%;
-    }
-}
-@media screen and (max-width: 1365px) {
-    .lista-paises{
-        grid-column-gap: 3%;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media screen and (max-width: 1020px) {
-    .lista-paises{
-        grid-column-gap: 5%;
-        grid-template-columns: 1fr 1fr;
-    }
-}
