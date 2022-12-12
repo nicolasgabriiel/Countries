@@ -67,14 +67,18 @@ function puxarApi(){
        <div class="imagem-individual" style="background-image: url(${dados[0].flags.png});"></div>
        <div class="informacoes">
        <h2>${dados[0].name.official}</h2>
+       <div class="informacoes-esquerda">
        <p><strong>Native Name: </strong>${nomeNativo}</p>
-       <p><strong>Top Level Domain: </strong>${dados[0].tld[0]}</p>
        <p><strong>Population: </strong>${formatarValor(dados[0].population)}</p>
-       <p><strong>Currencies: </strong>${moeda}</p>
-       <p><strong>Region:</strong>${dados[0].region}</p>
-       <p><strong>Languages: </strong>${linguagem}</p>
+       <p><strong>Region: </strong>${dados[0].region}</p>
        <p><strong>Sub Region: </strong>${dados[0].subregion}</p>
        <p><strong>Capital: </strong>${dados[0].capital}</p>
+       </div>
+        <div class="informacoes-direita">
+       <p><strong>Top Level Domain: </strong>${dados[0].tld[0]}</p>
+       <p><strong>Currencies: </strong>${moeda}</p>
+       <p><strong>Languages: </strong>${linguagem}</p>
+       </div>
        </div>
         `
 

@@ -1,0 +1,64 @@
+.informacoes-individuais{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.button-back{
+    width: 90%;
+    margin: 0 auto;
+}
+.button-back button {
+    margin: 100px 0;
+    padding: 7px 50px;
+    font-size: 16px;
+    vertical-align: text-top;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+
+}
+.button-back button:hover{
+    cursor: pointer;
+    scale: 1.03;
+}
+.button-back button::first-letter { 
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.imagem-individual{
+    display: inline-block;
+    width: 40%;
+    height: 400px;
+    background-position: initial;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.informacoes{
+    width: 50%;
+    
+}
+.informacoes h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1em;
+   
+}
+.informacoes p{
+    font-size: 18px;
+    margin-bottom: .9em;
+    
+}
+.informacoes-esquerda{
+    display: inline-block;
+    width: 49%;
+}
+.informacoes-direita{
+    display: inline-block;
+    width: 49%;
+    position: top;
+    vertical-align: top;
+}
+
