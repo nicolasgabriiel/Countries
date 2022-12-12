@@ -1,7 +1,7 @@
 const sectionOne = document.getElementById("sectionOne")
 
 function fecharSectionOne(){
-    sectionOne.style.display = "none"
+    sectionOne.classList.add('desativado')
 }
 
 const back = document.getElementById('back')
@@ -9,10 +9,7 @@ const back = document.getElementById('back')
 
 console.log(back)
 back.onclick = function reload (){
-    sectionOne.style.display = "flex"
-    mostrarTudo()
-    back.style.display = "none"
-    informacoesIndividuais.style.display = "none"
+    location.reload();
     
 }
 
