@@ -27,8 +27,9 @@
 -[X]Replciar lógica de filtro 
 -[X]Estruturar o filtro;
 -[X]Estilizar o filtro;
--[ ]Estilizar dark mode do filtro
+-[X]Estilizar dark mode do filtro
 -[X]Criar lógica de pesquisa;
 -[ ]Inserir meta tags;
--[ ]Modificar número da população
+-[X]Modificar número da população
+-[ ]Estilizar Dark mode nas páginas individuais
 

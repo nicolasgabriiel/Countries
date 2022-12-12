@@ -11,6 +11,7 @@ inputSearch.addEventListener('input', event => {
         inputValido = ""
     }
     if(inputValue.length > 0){
+        inputValue = inputValue.toLowerCase()
      inputValido = inputValue[0].toUpperCase() + inputValue.substring(1)
     }
     
