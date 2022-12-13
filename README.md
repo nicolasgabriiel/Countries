@@ -23,46 +23,46 @@ O desafio é construir o projeto e deixá-lo o mais próximo possível do design
 
 O objetivo desse site é que o usuário possa acessar informações de diversos países, tendo em vista o design mais fiel possível ao layout original e algumas funcionalidades como:
 
--Botão para trocar o tema de tela
--Botão para filtragem
--Barra de pesquisa
--Design Responsivo
+-Botão para trocar o tema de tela <br>
+-Botão para filtragem <br>
+-Barra de pesquisa <br>
+-Design Responsivo <br>
 
 ### Screenshot
 
-<p align="center">
+<p align="center"> Página inicial em White mode
     <img width="768px" src="assets/readme/imagem-1.png"></img>
 </p>
 
 ------
-<p align="center">
+<p align="center"> Página inicial em Dark mode
     <img width="768px" src="assets/readme/imagem-2.png"></img>
 </p>
 
 ------
-<p align="center">
+<p align="center"> Página Individual em White mode
     <img width="768px" src="assets/readme/imagem-3.png"></img>
 </p>
 
 ------
-<p align="center">
+<p align="center"> Página Individual em Dark mode
     <img width="768px" src="assets/readme/imagem-4.png"></img>
 </p>
 
 ------
-<p align="center">
+<p align="center"> Responsivo Página inicial
     <img width="375px" src="assets/readme/imagem-5.png"></img>
 </p>
 
 ------
 
-<p align="center">
+<p align="center"> Responsivo Página Individual
     <img width="375px" src="assets/readme/imagem-6.png"></img>
 </p>
 
 ------
 
-<p align="center">
+<p align="center"> Gif animado do site em funcionamento
     <img width="1024px" src="assets/readme/countries.gif"></img>
 </p>
 
@@ -72,10 +72,10 @@ O objetivo desse site é que o usuário possa acessar informações de diversos 
 
 ### Construido com
 
--HTML5
--CSS3
+-HTML5 <br>
+-CSS3 <br>
 -JavaScript <br>
-[-Rest Countrie API:](https://restcountries.com)
+[-Rest Countrie API:](https://restcountries.com) <br>
 
 ### Principais coisas que aprendi
 
