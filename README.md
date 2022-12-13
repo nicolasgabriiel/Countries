@@ -28,7 +28,7 @@ O objetivo desse site é que o usuário possa acessar informações de diversos 
 -Barra de pesquisa <br>
 -Design Responsivo <br>
 
-### Screenshot
+### Screenshots
 
 <p align="center"> Página inicial em White mode
     <img width="768px" src="assets/readme/imagem-1.png"></img>
@@ -50,13 +50,13 @@ O objetivo desse site é que o usuário possa acessar informações de diversos 
 </p>
 
 ------
-<p align="center"> Responsivo Página inicial
+<p align="center"> Responsivo Página inicial <br>
     <img width="375px" src="assets/readme/imagem-5.png"></img>
 </p>
 
 ------
 
-<p align="center"> Responsivo Página Individual
+<p align="center" > Responsivo Página Individual <br>
     <img width="375px" src="assets/readme/imagem-6.png"></img>
 </p>
 
