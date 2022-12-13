@@ -16,9 +16,8 @@ Esta é uma solução para o desafio [REST Countries API with color theme switch
 
 ## Resumo
 
-O desafio é construir o projeto e deixá-lo o mais próximo possível do design. Podendo usar qualquer ferramenta para ajudar a concluir o desafio. Nesse desafio é necessário fazer o uso de uma API externa chamada Rest Countrie API
+O desafio é construir o projeto e deixá-lo o mais próximo possível do design oferecido. Podendo usar qualquer ferramenta para ajudar a concluir o desafio. Nesse desafio em específico é necessário fazer o uso de uma API externa chamada [Rest Countrie API](https://restcountries.com), onde você faz o requerimento dos dados dos países necessários
 
-### CoutrieAPI: https://restcountries.com
 
 ### Desafio
 
@@ -64,7 +63,7 @@ O objetivo desse site é que o usuário possa acessar informações de diversos 
 ------
 
 <p align="center">
-    <img width="1024px" src="assets/readme/countries.png"></img>
+    <img width="1024px" src="assets/readme/countries.gif"></img>
 </p>
 
 ### Link: https://nicolasgabriiel.github.io/Countries/
@@ -75,7 +74,7 @@ O objetivo desse site é que o usuário possa acessar informações de diversos 
 
 -HTML5
 -CSS3
--JavaScript
+-JavaScript <br>
 [-Rest Countrie API:](https://restcountries.com)
 
 ### Principais coisas que aprendi
