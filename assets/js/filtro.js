@@ -87,12 +87,14 @@
            filtroGeral = true;
            region = classes[i]
            mostrarPaises()
+           setTimeout(fecharFiltros, 200) 
        
        //Se estiver ativo ao clicar ele remove o filtro
        }else if(filtroGeral == true){
            removerFonte()
            mostrarTudo()
            filtroGeral = false;
+           setTimeout(fecharFiltros, 200) 
        }
    } 
    }
