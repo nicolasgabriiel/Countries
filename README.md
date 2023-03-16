@@ -108,5 +108,9 @@ Utilizar o JS para barra de pesquisa:
 
 -  Site pessoal - [Nicolas Gabriel](https://www.linkedin.com/in/nicolasgabriiel/)
 
+## NOVO OBJETIVO
+
+TRAZER ESSE PROJETO PRO VUE 3 E RESOLVER PROBLEMAS DE PERFORMANCE E DESEMPENHO
+
   
 
