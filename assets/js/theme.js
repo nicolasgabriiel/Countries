@@ -30,3 +30,4 @@ else if(themeWhite == false ){
     moon.src = "assets/images/moon.svg"
 }
 }
+const bgroxo = "#D5EF03"
